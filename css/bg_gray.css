@@ -1,0 +1,47 @@
+/*****************************/
+/*** Aangepaste stijl voor asha-s.com ***/
+/*** bg_grey ***/
+/*****************************/
+/**
+bw 2011 11 13 Nieuw opgebouwd voor Asha-s.com
+13/11
+*/
+
+body {
+  color: white;
+  background-image: none; 
+}
+body,
+div.moduletable_menu ul,
+div.module_menu ul
+{ /* standaard #080810 */
+  background-color: #333; 
+}
+
+div.moduletable_menu h3
+div.module_menu h3
+ { 
+  color: #eee;
+}
+div.moduletable_menu ul li a,
+div.module_menu ul li a,
+div.moduletable_menu ul li ul li a:link,
+div.moduletable_menu ul li ul li a:visited,
+a.sublevel:link,
+a.sublevel:visited, 
+div.module_menu ul li ul li a:link,
+div.module_menu ul li ul li a:visited
+{ /* submenu iets dichter bij achtergrond dan standaard-kleur */
+color: #eee;
+}
+
+div.moduletable_menu li.current a,
+div.moduletable_menu ul li ul li.current a:link,
+div.moduletable_menu ul li ul li.current a:visited,
+div.module_menu #current,
+div.module_menu li.current a
+{
+/* actuele optie kleur dichter bij achtergrong dan andere opties. */
+
+}
+ 
